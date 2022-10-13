@@ -32,14 +32,13 @@ namespace Pra.Books.Wpf
 
         //private void PopulateAuthors(Author authorToSelect = null)
         //{
-        //    lstAuthors.SelectedValuePath = "Id";
         //    lstAuthors.ItemsSource = bibService.Authors;
 
         //    if(authorToSelect != null)
         //    {
         //        // eerst deselecteren om refresh te forceren indien zelfde auteur geselecteerd blijft
         //        lstAuthors.UnselectAll();
-        //        lstAuthors.SelectedValue = authorToSelect.Id;
+        //        lstAuthors.SelectedItem = authorToSelect;
         //    }
         //}
 

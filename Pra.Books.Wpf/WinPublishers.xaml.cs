@@ -31,14 +31,13 @@ namespace Pra.Books.Wpf
 
         //private void PopulatePublishers(Publisher publisherToSelect = null)
         //{
-        //    lstPublishers.SelectedValuePath = "Id";
         //    lstPublishers.ItemsSource = bibService.Publishers;
 
         //    if(publisherToSelect != null)
         //    {
         //        // eerst deselecteren om refresh te forceren indien zelfde uitgever geselecteerd blijft
         //        lstPublishers.UnselectAll();
-        //        lstPublishers.SelectedValue = publisherToSelect.Id;
+        //        lstPublishers.SelectedItem = publisherToSelect;
         //    }
         //}
 
