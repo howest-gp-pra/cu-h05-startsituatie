@@ -31,7 +31,7 @@ namespace Pra.Books.Wpf
 
         //private void PopulatePublishers(Publisher publisherToSelect = null)
         //{
-        //    lstPublishers.ItemsSource = bibService.Publishers;
+        //    lstPublishers.ItemsSource = bibService.GetPublishers();
 
         //    if(publisherToSelect != null)
         //    {

@@ -60,8 +60,8 @@ namespace Pra.Books.Wpf
         //    cmbFilterAuthor.ItemsSource = null;
         //    cmbAuthor.ItemsSource = null;
 
-        //    cmbFilterAuthor.ItemsSource = bibService.Authors;
-        //    cmbAuthor.ItemsSource = bibService.Authors;
+        //    cmbFilterAuthor.ItemsSource = bibService.GetAuthors();
+        //    cmbAuthor.ItemsSource = bibService.GetAuthors();
 
         //    // herstel filter op auteur indien aanvankelijk reeds geselecteerd
         //    if(filterAuthor != null)
@@ -77,8 +77,8 @@ namespace Pra.Books.Wpf
         //    cmbFilterPublisher.ItemsSource = null;
         //    cmbPublisher.ItemsSource = null;
 
-        //    cmbFilterPublisher.ItemsSource = bibService.Publishers;
-        //    cmbPublisher.ItemsSource = bibService.Publishers;
+        //    cmbFilterPublisher.ItemsSource = bibService.GetPublishers();
+        //    cmbPublisher.ItemsSource = bibService.GetPublishers();
 
         //    // herstel filter op uitgeverij indien aanvankelijk reeds geselecteerd
         //    if (filterPublisher != null)

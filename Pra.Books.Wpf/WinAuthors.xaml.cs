@@ -32,7 +32,7 @@ namespace Pra.Books.Wpf
 
         //private void PopulateAuthors(Author authorToSelect = null)
         //{
-        //    lstAuthors.ItemsSource = bibService.Authors;
+        //    lstAuthors.ItemsSource = bibService.GetAuthors();
 
         //    if(authorToSelect != null)
         //    {
